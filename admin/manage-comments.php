@@ -56,7 +56,7 @@ if($_GET['action']=='del' && $_GET['rid'])
             <!-- Top Bar Start -->
 <?php include('includes/topheader.php');?>
 
-            <!-- ========== Left Sidebar Start ========== -->
+            
 <?php include('includes/leftsidebar.php');?>
             
             <div class="content-page">
