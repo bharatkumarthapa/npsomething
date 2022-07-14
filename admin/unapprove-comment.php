@@ -69,7 +69,7 @@ if($_GET['action']=='del' && $_GET['rid'])
                                 </div>
 							</div>
 						</div>
-                        <!-- end row -->
+                       
 
 
                         <div class="row">
