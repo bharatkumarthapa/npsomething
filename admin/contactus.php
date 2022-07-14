@@ -123,13 +123,13 @@ $error="Something went wrong . Please try again.";
 
                                     </form>
                                     </div>
-                                </div> <!-- end p-20 -->
+                                </div> 
                             </div> <!-- end col -->
                         </div>
                         
-                    </div> <!-- container -->
+                    </div> 
 
-                </div> <!-- content -->
+                </div> 
 
                 <?php include('includes/footer.php');?>
             </div>
