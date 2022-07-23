@@ -7,7 +7,7 @@ if (empty($_SESSION['token'])) {
 }
 
 if(isset($_POST['submit']))
-{
+ {
  
     if (!empty($_POST['csrftoken'])) {
         if (hash_equals($_SESSION['token'], $_POST['csrftoken'])) 
@@ -28,7 +28,7 @@ if(isset($_POST['submit']))
 
           }
     }
-}
+ }
   $postid=intval($_GET['nid']);
 
     $sql = "SELECT viewCounter FROM posts WHERE id = '$postid'";
@@ -66,9 +66,7 @@ if(isset($_POST['submit']))
     
 
   </head>
-
   <body>
-
    <?php include('includes/header.php');?>
 
     <!-- Page Content -->
@@ -175,5 +173,4 @@ if(isset($_POST['submit']))
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   </body>
-
 </html>
