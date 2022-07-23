@@ -42,7 +42,7 @@ include('includes/config.php');
           <p><?php echo $row['Description'];?></p>
         </div>
       </div>
-      <!-- /.row -->
+      
 <?php } ?>
     
     </div>
@@ -54,5 +54,4 @@ include('includes/config.php');
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   </body>
-
 </html>
