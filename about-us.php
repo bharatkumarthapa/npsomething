@@ -27,13 +27,12 @@ include('includes/config.php');
     
     <div class="container" style="margin-top: 7%">
 
-<?php 
-$pagetype='aboutus';
-$query=mysqli_query($con,"select PageTitle,Description from pages where PageName='$pagetype'");
-while($row=mysqli_fetch_array($query))
-{
-
-?>
+  <?php 
+  $pagetype='aboutus';
+  $query=mysqli_query($con,"select PageTitle,Description from pages where PageName='$pagetype'");
+  while($row=mysqli_fetch_array($query))
+  {
+  ?>
       <h1 class="mt-4 mb-3"><?php echo htmlentities($row['PageTitle'])?>
   
       </h1>
