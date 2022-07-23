@@ -2,8 +2,7 @@
 session_start();
 error_reporting(0);
 include('includes/config.php');
-
-    ?>
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -26,7 +25,6 @@ include('includes/config.php');
 
   <body>
 
-    <!-- Navigation -->
    <?php include('includes/header.php');?>
 
     <!-- Page Content -->
@@ -114,7 +112,7 @@ include('includes/config.php');
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
  
-</head>
+  </head>
   </body>
 
 </html>
